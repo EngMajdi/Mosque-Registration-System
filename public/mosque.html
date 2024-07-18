@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mosque Registration</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/mosque.js"></script>
+</head>
+<body>
+  <h1>Mosque Registration</h1>
+  <form id="registerMosqueForm">
+    <label for="mosqueName">Mosque Name:</label>
+    <input type="text" id="mosqueName" name="mosqueName" required>
+    <label for="registrationNumber">Registration Number:</label>
+    <input type="number" id="registrationNumber" name="registrationNumber" required>
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" required>
+    <label for="imageUrl">Image:</label>
+    <input type="file" id="imageUrl" name="imageUrl" required>
+    <button type="submit">Register</button>
+  </form>
+  <h2>Registered Mosques</h2>
+  <div id="mosquesContainer"></div>
+</body>
+</html>
